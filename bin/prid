@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'prid'
+require 'octokit'
+
+Prid::Client.run
