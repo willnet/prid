@@ -2,7 +2,7 @@
 
 Prid offers `prid` command.
 
-`prid` command show pull request id related branch which you are on.
+`prid` command return pull request id on current branch. if related pull request is not found, it return nothing.
 
 ## Usage
 
@@ -28,7 +28,7 @@ Or install it yourself as:
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/prid/fork )
+1. Fork it ( https://github.com/willnet/prid/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
