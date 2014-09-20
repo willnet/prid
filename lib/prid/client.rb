@@ -13,6 +13,7 @@ module Prid
         exit 1
       end
       branch = `git branch 2> /dev/null | grep '^\*' | cut -b 3-`
+      branch.chomp!
       if branch.nil? || branch.empty?
         warn 'Are you on a git directory?'
         exit 1
