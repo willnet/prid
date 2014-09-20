@@ -1,6 +1,14 @@
 # Prid
 
-TODO: Write a gem description
+Prid offers `prid` command.
+
+`prid` command show pull request id related branch which you are on.
+
+## Usage
+
+```
+GITHUB_ACCESS_TOKEN=YOUR_ACCESS_TOKEN prid your_repository_name
+```
 
 ## Installation
 
@@ -17,10 +25,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install prid
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
